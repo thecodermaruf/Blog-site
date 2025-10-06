@@ -29,14 +29,14 @@ const Hero06 = () => {
         </p>
         <div className="mt-12 flex items-center justify-center gap-4">
           <Button size="lg" className="rounded-full text-base">
-            Get Started <ArrowUpRight className="h-5! w-5!" />
+            Latest blog <ArrowUpRight className="h-5! w-5!" />
           </Button>
           <Button
             variant="outline"
             size="lg"
             className="rounded-full text-base shadow-none"
           >
-            <CirclePlay className="h-5! w-5!" /> Watch Demo
+            <CirclePlay className="h-5! w-5!" /> Hire me now
           </Button>
         </div>
       </div>

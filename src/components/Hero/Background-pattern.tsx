@@ -28,15 +28,17 @@ const Hero = () => {
           easy-to-implement examples.
         </p>
         <div className="mt-12 flex items-center justify-center gap-4">
-          <Button size="lg" className="rounded-full text-base">
-            Get Started <ArrowUpRight className="h-5! w-5!" />
+          <Button asChild size="lg" className="rounded-full text-base">
+            <Link to="/">
+              Latest blog <ArrowUpRight className="h-5! w-5!" />
+            </Link>
           </Button>
           <Button
             variant="outline"
             size="lg"
             className="rounded-full text-base shadow-none"
           >
-            <CirclePlay className="h-5! w-5!" /> Watch Demo
+            <CirclePlay className="h-5! w-5!" /> Hire me now
           </Button>
         </div>
       </div>
