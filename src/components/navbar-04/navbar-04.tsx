@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Logo } from "./logo";
 import { NavMenu } from "./nav-menu";
 import { NavigationSheet } from "./navigation-sheet";
-import { ModeToggle } from "../ui/mode-toggle";
+import { ModeToggle } from "../ui/darkmode/mode-toggle";
 import { SearchBar } from "../ui/searchbar";
 
 const Navbar04Page = () => {
