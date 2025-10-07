@@ -1,11 +1,10 @@
 export const config = {
   appUrl:
-    process.env.NODE_ENV === "production"
-      ? process.env.VERCEL_PROJECT_PRODUCTION_URL ??
-        process.env.NEXT_PUBLIC_APP_URL!
-      : "localhost:3000",
+    import.meta.env.MODE === "production"
+      ? import.meta.env.VITE_APP_URL
+      : "http://localhost:5173",
   social: {
-    github: "https://github.com/akash3444/shadcn-ui-blocks",
-    twitter: "https://twitter.com/shadcnui_blocks",
+    github: import.meta.env.VITE_GITHUB_URL,
+    twitter: import.meta.env.VITE_TWITTER_URL,
   },
 };

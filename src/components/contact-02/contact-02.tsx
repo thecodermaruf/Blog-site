@@ -5,7 +5,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { MailIcon, MapPinIcon, MessageCircle, PhoneIcon } from "lucide-react";
-import Link from "next/link";
+import { Link } from "react-router";
 
 const Contact02Page = () => (
   <div className="min-h-screen flex items-center justify-center py-16">
@@ -32,7 +32,7 @@ const Contact02Page = () => (
             </p>
             <Link
               className="font-medium text-primary"
-              href="mailto:akashmoradiya3444@gmail.com"
+              to="mailto:akashmoradiya3444@gmail.com"
             >
               akashmoradiya3444@gmail.com
             </Link>
@@ -45,7 +45,7 @@ const Contact02Page = () => (
             <p className="my-2.5 text-muted-foreground">
               Our friendly team is here to help.
             </p>
-            <Link className="font-medium text-primary" href="#">
+            <Link className="font-medium text-primary" to="#">
               Start new chat
             </Link>
           </div>
@@ -59,7 +59,7 @@ const Contact02Page = () => (
             </p>
             <Link
               className="font-medium text-primary"
-              href="https://map.google.com"
+              to="https://map.google.com"
               target="_blank"
             >
               100 Smith Street Collingwood <br /> VIC 3066 AU
@@ -75,7 +75,7 @@ const Contact02Page = () => (
             </p>
             <Link
               className="font-medium text-primary"
-              href="tel:akashmoradiya3444@gmail.com"
+              to="tel:akashmoradiya3444@gmail.com"
             >
               +1 (555) 000-0000
             </Link>
@@ -125,7 +125,7 @@ const Contact02Page = () => (
                   <Checkbox id="acceptTerms" className="bg-background" />
                   <Label htmlFor="acceptTerms" className="gap-0">
                     You agree to our
-                    <Link href="#" className="underline ml-1">
+                    <Link to="#" className="underline ml-1">
                       terms and conditions
                     </Link>
                     <span>.</span>

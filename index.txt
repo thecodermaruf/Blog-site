@@ -1,0 +1,5 @@
+warning: in the working copy of 'src/App.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/navbar-04/navbar-04.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/ui/badge.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/ui/textarea.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/ui/team/team.tsx', LF will be replaced by CRLF the next time Git touches it

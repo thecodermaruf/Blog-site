@@ -5,7 +5,7 @@ import { NavigationSheet } from "./navigation-sheet";
 import { ModeToggle } from "../ui/darkmode/mode-toggle";
 import { SearchBar } from "../ui/searchbar";
 
-const Navbar04Page = () => {
+const Navbar = () => {
   return (
     <div className="bg-white relative z-10">
       <nav className="fixed top-6 inset-x-4 h-16 bg-background border dark:border-slate-700/70 max-w-(--breakpoint-xl) mx-auto rounded-full">
@@ -36,4 +36,4 @@ const Navbar04Page = () => {
   );
 };
 
-export default Navbar04Page;
+export default Navbar;

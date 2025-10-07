@@ -1,6 +1,5 @@
 "use client";
 
-import { Logo } from "@/components/logo";
 import { Button } from "@/components/ui/button";
 import {
   Form,
@@ -13,9 +12,11 @@ import {
 import { Input } from "@/components/ui/input";
 import { Separator } from "@/components/ui/separator";
 import { zodResolver } from "@hookform/resolvers/zod";
-import Link from "next/link";
+import { Link } from "react-router";
 import { useForm } from "react-hook-form";
 import { z } from "zod";
+// import { Logo } from "@/components/ui/logo";
+import { Logo } from "@/components/logo";
 
 const formSchema = z.object({
   email: z.string().email(),
@@ -103,7 +104,7 @@ const SignUp01Page = () => {
 
         <p className="mt-5 text-sm text-center">
           Already have an account?
-          <Link href="#" className="ml-1 underline text-muted-foreground">
+          <Link to="#" className="ml-1 underline text-muted-foreground">
             Log in
           </Link>
         </p>

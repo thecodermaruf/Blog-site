@@ -1,3 +1,4 @@
+import { Logo } from "@/components/navbar-04/logo";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Separator } from "@/components/ui/separator";
@@ -8,7 +9,6 @@ import {
   TwitterIcon,
 } from "lucide-react";
 import { Link } from "react-router";
-import { Logo } from "../../navbar-04/logo";
 
 const footerSections = [
   {
@@ -80,7 +80,7 @@ const Footer = () => {
           <div className="py-12 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-7 gap-x-8 gap-y-10 px-6 xl:px-0">
             <div className="col-span-full xl:col-span-2">
               {/* Logo */}
-              <div className="width-50 h-auto">
+              <div className="width-50 h-50">
                 <Logo />
               </div>
 
