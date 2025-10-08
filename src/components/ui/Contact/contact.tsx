@@ -34,7 +34,7 @@ const Contact = () => (
               className="font-medium text-primary"
               to="mailto:akashmoradiya3444@gmail.com"
             >
-              akashmoradiya3444@gmail.com
+              bloginfo@gmail.com
             </Link>
           </div>
           <div>
@@ -77,7 +77,7 @@ const Contact = () => (
               className="font-medium text-primary"
               to="tel:akashmoradiya3444@gmail.com"
             >
-              +1 (555) 000-0000
+              (+880) 1857-756965{" "}
             </Link>
           </div>
         </div>

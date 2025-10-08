@@ -73,14 +73,14 @@ const footerSections = [
 
 const Footer = () => {
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="flex flex-col">
       <div className="grow bg-muted" />
       <footer className="border-t">
         <div className="max-w-(--breakpoint-xl) mx-auto">
           <div className="py-12 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-7 gap-x-8 gap-y-10 px-6 xl:px-0">
             <div className="col-span-full xl:col-span-2">
               {/* Logo */}
-              <div className="width-50 h-50">
+              <div className="width-50 ml-4">
                 <Logo />
               </div>
 
